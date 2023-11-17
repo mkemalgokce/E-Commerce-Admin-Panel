@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  api:
+    build: api/
+    container_name: 'shopar_admin_api'
+    restart: always
+    volumes:
+      - ./api:/project/api
+      - ./package.json:/project/package.json
+      - ./tsconfig.json:/project/tsconfig.json
+      - ./shared:/project/shared
+      - ./node_modules:/project/node_modules
+    working_dir: /project
+    command: npm run dev
+    ports:
+      - "4026:8181"
+
+    env_file: .env
+  db:
+    image: mysql:latest
+    command: --default-authentication-plugin=mysql_native_password
+    container_name: "shopar_admin_db"
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    ports:
+      - "3307:3306"

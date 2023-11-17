@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "strict": true,
+    "preserveConstEnums": false,
+    "esModuleInterop": true,
+    "composite": true,
+    "baseUrl": ".",
+    "paths": {
+      "@shared": ["./shared"],
+      "@shared/*": ["./shared/*"],
+
+    },
+
+
+
+  },
+
+}

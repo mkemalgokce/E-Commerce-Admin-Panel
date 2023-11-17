@@ -1,0 +1,37 @@
+{
+  "name": "admin_panel",
+  "version": "1.0.0",
+  "description": "It's an admin panel client, server project for Shopar.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon api/index.ts"
+  },
+  "author": "Mustafa Kemal Gokce",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.3",
+    "nodemon": "^3.0.1",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.9.1",
+    "typeorm": "^0.3.17",
+    "typescript": "^5.2.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.6",
+    "@types/cors": "^2.8.16",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/multer": "^1.4.10",
+    "@types/node": "^20.9.0",
+    "@types/validator": "^13.11.6"
+  }
+}
