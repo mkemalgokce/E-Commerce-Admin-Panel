@@ -21,6 +21,12 @@ Tailwind css is a utility-first CSS framework that provides a set of low-level u
 
 To get started with Tailwind CSS, check out the [official documentation](https://tailwindcss.com/docs).
 
+## Backend
+
+- MySQL Database
+- NodeJS with Typescript
+- TypeOrm
+
 ## Getting Started
 ## Installation
 
@@ -82,8 +88,9 @@ To run the E-Commerce Admin Panel using Docker, follow these steps:
 
 ## ScreenShots
 
-<img width="1440" alt="image" src="https://github.com/mkemalgokce/E-Commerce-Admin-Panel/assets/46056478/77e5e335-38c6-4d8c-9e53-fe2881d884c7">
-<img width="1440" alt="image" src="https://github.com/mkemalgokce/E-Commerce-Admin-Panel/assets/46056478/5f655ee4-b835-4129-8d9d-eb21eea2d125">
+<img width="1440" alt="image" src="https://github.com/mkemalgokce/E-Commerce-Admin-Panel/assets/46056478/09a11be7-7d56-4b6a-9b49-9cfcaa738579">
+<img width="1440" alt="image" src="https://github.com/mkemalgokce/E-Commerce-Admin-Panel/assets/46056478/4c70c9a8-fd92-421f-aaf5-d9f3df671769">
+
 
 
 [MIT](https://choosealicense.com/licenses/mit/)
